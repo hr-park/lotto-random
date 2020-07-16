@@ -1,5 +1,4 @@
 {
-  "homepage": "https://hr-park.github.io/lotto-random/",
   "name": "lotto-random",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +19,7 @@
     "deploy": "gh-pags -d build",
     "predeploy": "npm run build"
   },
+  "homepage": "https://hr-park.github.io/lotto-random/",
   "eslintConfig": {
     "extends": "react-app"
   },
