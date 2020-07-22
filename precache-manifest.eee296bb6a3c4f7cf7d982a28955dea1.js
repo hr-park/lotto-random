@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eab116c0b73839013913bcafeb93d94e",
+    "revision": "816122ed4c0808a50ed6cc5a10c22ad4",
     "url": "/lotto-random/index.html"
   },
   {
-    "revision": "b290d3001073379283d5",
+    "revision": "8d5d8a0d0ea5d32b92c9",
     "url": "/lotto-random/static/css/main.3ff6c2aa.chunk.css"
   },
   {
-    "revision": "1236122ad3488f1d8c7f",
-    "url": "/lotto-random/static/js/2.fdf3b68a.chunk.js"
+    "revision": "65d60d4ef1b264f1d38e",
+    "url": "/lotto-random/static/js/2.a5eb3c90.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/lotto-random/static/js/2.fdf3b68a.chunk.js.LICENSE.txt"
+    "url": "/lotto-random/static/js/2.a5eb3c90.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b290d3001073379283d5",
-    "url": "/lotto-random/static/js/main.528318a4.chunk.js"
+    "revision": "8d5d8a0d0ea5d32b92c9",
+    "url": "/lotto-random/static/js/main.6a6e1323.chunk.js"
   },
   {
     "revision": "1f2787c85229199e3c07",

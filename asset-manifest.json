@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/lotto-random/static/css/main.3ff6c2aa.chunk.css",
-    "main.js": "/lotto-random/static/js/main.528318a4.chunk.js",
-    "main.js.map": "/lotto-random/static/js/main.528318a4.chunk.js.map",
+    "main.js": "/lotto-random/static/js/main.6a6e1323.chunk.js",
+    "main.js.map": "/lotto-random/static/js/main.6a6e1323.chunk.js.map",
     "runtime-main.js": "/lotto-random/static/js/runtime-main.dbfd0347.js",
     "runtime-main.js.map": "/lotto-random/static/js/runtime-main.dbfd0347.js.map",
-    "static/js/2.fdf3b68a.chunk.js": "/lotto-random/static/js/2.fdf3b68a.chunk.js",
-    "static/js/2.fdf3b68a.chunk.js.map": "/lotto-random/static/js/2.fdf3b68a.chunk.js.map",
+    "static/js/2.a5eb3c90.chunk.js": "/lotto-random/static/js/2.a5eb3c90.chunk.js",
+    "static/js/2.a5eb3c90.chunk.js.map": "/lotto-random/static/js/2.a5eb3c90.chunk.js.map",
     "index.html": "/lotto-random/index.html",
-    "precache-manifest.f586822954b44c3521cfefb359daa6b0.js": "/lotto-random/precache-manifest.f586822954b44c3521cfefb359daa6b0.js",
+    "precache-manifest.eee296bb6a3c4f7cf7d982a28955dea1.js": "/lotto-random/precache-manifest.eee296bb6a3c4f7cf7d982a28955dea1.js",
     "service-worker.js": "/lotto-random/service-worker.js",
     "static/css/main.3ff6c2aa.chunk.css.map": "/lotto-random/static/css/main.3ff6c2aa.chunk.css.map",
-    "static/js/2.fdf3b68a.chunk.js.LICENSE.txt": "/lotto-random/static/js/2.fdf3b68a.chunk.js.LICENSE.txt"
+    "static/js/2.a5eb3c90.chunk.js.LICENSE.txt": "/lotto-random/static/js/2.a5eb3c90.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dbfd0347.js",
-    "static/js/2.fdf3b68a.chunk.js",
+    "static/js/2.a5eb3c90.chunk.js",
     "static/css/main.3ff6c2aa.chunk.css",
-    "static/js/main.528318a4.chunk.js"
+    "static/js/main.6a6e1323.chunk.js"
   ]
 }
