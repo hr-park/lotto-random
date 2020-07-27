@@ -1,5 +1,6 @@
 .lotto-random-contents{
+    overflow-y:auto;
     width: 677px;
     height: 600px;
-    background-color: darkolivegreen;
+    background-color:#999;
 }

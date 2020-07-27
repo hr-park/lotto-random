@@ -41,7 +41,7 @@ class LottoRandomTemplate extends Component {
             }
         })
 
-        if (selectedNumberCount < 7){
+        if (selectedNumberCount < 6){
             alert("번호를 6개 이상 선택해주세요.");
             return;
         } else {
@@ -54,10 +54,10 @@ class LottoRandomTemplate extends Component {
     }
 
     selectLotto = (lottoNumber, numbers) => {
-        if(lottoNumber.length === 7) {
-            const temp = lottoNumber.slice(0, 6);
+        if(lottoNumber.length === 6) {
+            const temp = lottoNumber.slice(0, 5);
             temp.sort((a,b)=>a-b);
-            temp.push(lottoNumber[6]);
+            temp.push(lottoNumber[5]);
             return temp
         }
         let n = numbers[Math.floor(Math.random() * numbers.length)];
