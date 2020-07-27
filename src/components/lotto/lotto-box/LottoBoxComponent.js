@@ -9,10 +9,10 @@ class LottoBoxComponent extends Component {
         return(
             <div className="lotto-box-contents">
                 <div className="lotto-box">
-                     {numbers.map((n)=>
+                     {numbers.map((n, i)=>
                         <div
                             className="lotto-box-number"
-                            key={n}
+                            key={i}
                         >{n}</div>    
                     )}
                     <div className="lotto-box-plus">+</div>

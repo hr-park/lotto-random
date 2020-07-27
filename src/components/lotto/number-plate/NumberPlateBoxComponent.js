@@ -3,7 +3,7 @@ import "./NumberPlateboxComponent.css";
 
 class NumberPlateBoxComponent extends Component {
     handleChange = (e) => {
-        const {checked} = e.target;
+        const { checked } = e.target;
         this.props.handleChange(checked, this.props.number);
     };
 

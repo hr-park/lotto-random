@@ -3,7 +3,7 @@ import './NumberPlateComponent.css';
 import NumberPlateBoxComponent from './NumberPlateBoxComponent';
 
 class NumberPlateComponent extends Component {
-   state = {
+    /* state = {
         selected : []
     }
     componentDidMount() {
@@ -19,18 +19,18 @@ class NumberPlateComponent extends Component {
         const {selected} = this.state;
         selected[number-1] = checked;
         this.setState({selected});
-    };
+    }; */
 
    render(){
         return(
             <div>
                  <div className="number-plate-contents">
-                    { this.state.selected.map((select, index) =>
+                    { this.props.selected.map((select, index) =>
                         <NumberPlateBoxComponent
                             key={index}
                             number={index+1}
                             selected={select}
-                            handleChange={this.handleChange}
+                            handleChange={this.props.handleChange}
                         />
                     )}
                 </div>

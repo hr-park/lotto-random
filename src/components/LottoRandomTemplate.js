@@ -9,19 +9,19 @@ class LottoRandomTemplate extends Component {
 
     state = {
         selected : [],
-        lottoNumbers : []
+        lottoNumbers : [] // 로또 번호를 생성하여 담아줄 배열
     }
 
     componentDidMount() {
         const {selected} = this.state;
-        for(let i=1; i<47; i++) {
+        for(let i=1; i<46; i++) {
             selected.push(false);
         }
         this.setState({selected});
     }
 
     handleChange = (checked, number) => {
-        //console.log(number);
+        console.log(number);
         const { selected } = this.state;
         selected[number-1] = checked;
         this.setState({selected});
@@ -34,6 +34,7 @@ class LottoRandomTemplate extends Component {
         console.log(selectedNumberCount);
 
         selected.forEach((s, i) => {
+            console.log(s, i+1);
             if(s) {
                 selectedNumberCount++;
                 numbers.push(i+1);
@@ -41,12 +42,14 @@ class LottoRandomTemplate extends Component {
         })
 
         if (selectedNumberCount < 7){
-            alert("번호를 7개 이상 선택해주세요.");
+            alert("번호를 6개 이상 선택해주세요.");
             return;
         } else {
+            alert('로또 번호를 생성합니다.')
             const lotto = this.selectLotto([], numbers);
-            //lottoNumbers.push(lotto);
+            lottoNumbers.push(lotto);
             this.setState({lottoNumbers : [lotto, ...lottoNumbers]});
+            this.setState({lottoNumbers});
         }
     }
 
@@ -70,7 +73,7 @@ class LottoRandomTemplate extends Component {
                 <LottoRandomHeader/>
                 <div className="lotto-random-main">
                     <LottoRandomSideMenu
-                        selecte={this.state.selected}
+                        selected ={this.state.selected}
                         handleChange={this.handleChange}
                         handleButtonOnClick={this.handleButtonOnClick}
                     />
