@@ -13,7 +13,9 @@ var http = require('http');
  */
 
 var port = normalizePort(process.env.PORT || '5000');
+var cors = require('cors');
 app.set('port', port);
+app.use(cors());
 
 /**
  * Create HTTP server.
