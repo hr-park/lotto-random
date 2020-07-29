@@ -48,8 +48,8 @@ class LottoRandomTemplate extends Component {
             alert('로또 번호를 생성합니다.')
             const lotto = this.selectLotto([], numbers);
             lottoNumbers.push(lotto);
-            this.setState({lottoNumbers : [lotto, ...lottoNumbers]});
             this.setState({lottoNumbers});
+            this.setState({lottoNumbers : [lotto, ...lottoNumbers]});
         }
     }
 

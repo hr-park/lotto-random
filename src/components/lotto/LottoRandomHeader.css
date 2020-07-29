@@ -6,6 +6,7 @@
     border:1px solid #aeaeae;
     box-sizing:border-box;
 }
-
+.lotto-title {padding:10px 0 0 10px;}
 .lotto-random-header h1 {display:inline-block;margin:0;}
 .lotto-random-header p {display:inline-block;}
+.lotto-box-contents{text-align:center;}
